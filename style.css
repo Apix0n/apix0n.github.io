@@ -1,43 +1,40 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700);
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    color: #ffffff;
-    background-color: #0d1117;
-    font-family: Montserrat, serif;
+  background-color: #0d1117;
+  font-family: Montserrat, serif;
 }
 
-.error {
-    height: 100vh;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+#error {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 h1 {
-    font-size: min(35vw, 250px);
-    font-family: Consolas, Menlo, Monaco, "Lucida Console, Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+  color: #ffffff;
+  font-size: 10em;
 }
 
 h2 {
-    font-size: min(11.5vw, 75px);
-    color: #aaaaaa;
+  color: #aaaaaa;
 }
 
-#explanation {
-    font-size: 21px;
-    color: #aaaaaa;
-    position: absolute;
-    bottom: 20px;
+.explanation {
+  font-size: 1.5em;
+  color: #aaaaaa;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
 }
 
 a {
-    color: #518ef0;
+  color: #518ef0;
 }
